@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador USD</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../Css/main.css" />
+    <!-- FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="cotis">
+
+        </div>
+    </section>
+
+    <div class="modalContainer ">
+
+        <div id="modal">
+            <h4 class="dolares"></h4>
+            <hr>
+            <br>
+            <p id="resultado"></p>
+            <br>
+            <button class="button-19" role="button" id="cerrarModal">Hacer otra conversion</button>
+            <button class="button-19" role="button" id="volverInicio">Volver al inicio</button>
+        </div>
+    </div>
+
+    <div id="cotizadorUsd">
+        <h1 id="dolar">Simulador de Dolares al blue</h1>
+        <form id="simulador">
+            <label>Ingrese la cantidad de Dolares que quiere vender: <br>
+                <input type="number" placeholder="$ ingrese aqui" id="ingreso" required></label><br><br>
+            <button class="button-19" role="button" id="abrirModal">Calcular</button>
+        </form>
+    </div>
+
+    <!-- Librerias -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- JS -->
+    <script src="../js/simuUsd.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

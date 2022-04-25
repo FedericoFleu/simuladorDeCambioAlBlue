@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url(../img/usd.avif);
+  background-size: cover;
+}
+
+/* INICIO TITULOS */
+h1 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  color: #4385c6;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 25px;
+  color: #85bb65;
+  font-weight: 800;
+}
+/* FIN TITULOS */
+
+p {
+  font-size: 23px;
+}
+
+/* INICIO SECTIONS */
+#cotizador {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 80px;
+  display: flex;
+  text-align: center;
+}
+
+.cotis {
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.titulos {
+  margin: 15px;
+  font-size: 20px;
+}
+
+#textoCeleste {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+#textoVerde {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+#cotizadorPesos {
+  margin: 60px;
+  text-align: center;
+}
+
+#cotizadorUsd {
+  text-align: center;
+  margin: 60px;
+}
+
+.pesos {
+  font-size: 100px;
+  color: #4385c6;
+}
+
+.dolar {
+  font-size: 100px;
+  color: #85bb65;
+}
+
+/* FIN SECTIONS */
+
+/* CSS botton */
+.button-19 {
+  align-items: center;
+  background-color: #85bb65;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-19:hover,
+.button-19:focus {
+  background-color: #85bb65;
+  color: #ffffff;
+}
+
+.button-19:active {
+  background: #093b10;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.button-19:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+/* *************************************** */
+.button-18 {
+  align-items: center;
+  background-color: #4385c6;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+  background-color: #4385c6;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.button-18:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+/* FIN BOTON */
+
+/*INICIO FORMULARIO */
+#formulario {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+input {
+  font-size: 19px;
+}
+/* FIN FORMULARIO */
+
+/*INICIO MODAL */
+.modalContainer {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal {
+  width: 500px;
+  height: 260px;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.945);
+  border-radius: 10px;
+}
+
+.modalActive {
+  opacity: 1;
+  visibility: visible;
+}
+/* FIN MODAL */

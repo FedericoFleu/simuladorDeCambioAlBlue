@@ -40,6 +40,7 @@ p {
   font-size: 80px;
   display: flex;
   text-align: center;
+  margin: 80px;
 }
 
 .cotis {
@@ -55,12 +56,12 @@ p {
 }
 
 #textoCeleste {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 900;
 }
 
 #textoVerde {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 900;
 }
 
@@ -75,12 +76,12 @@ p {
 }
 
 .pesos {
-  font-size: 100px;
+  font-size: 80px;
   color: #4385c6;
 }
 
 .dolar {
-  font-size: 100px;
+  font-size: 80px;
   color: #85bb65;
 }
 

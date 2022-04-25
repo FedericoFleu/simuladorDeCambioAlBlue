@@ -20,7 +20,7 @@ boton.addEventListener("click", (ev) =>{
     
       const datos = await coti.json();
     
-      const usdVenta = parseInt(datos[1].casa.venta); //precio de venta
+      const usdCompra = parseInt(datos[1].casa.compra); //precio de venta
 
       if(ingreso <= 0){
         Swal.fire({
@@ -41,13 +41,13 @@ boton.addEventListener("click", (ev) =>{
   
         document.querySelector("#ingreso").value = ""; 
   
-        let calculo = ingreso * usdVenta; //calculo de la  venta 
+        let calculo = ingreso * usdCompra; //calculo de la  venta 
         
         modalConteainer.classList.add("modalActive"); // le agregamos la class para que se muestre el modal
 
-        h4.innerHTML = `Cotizacion del dia: $ ${usdVenta}`; //titulo del modal
+        h4.innerHTML = `Cotizacion del dia: $ ${usdCompra}`; //titulo del modal
   
-        resutaldoModal.innerHTML = `<p>Ingresaste: $ ${ingreso}</p> <br> <p>Recibiras: $ ${calculo} Pesos</p>`; //cuerpo del modal
+        resutaldoModal.innerHTML = `<p>Ingresaste: $ ${ingreso} USD</p> <br> <p>Recibiras: $ ${calculo} Pesos</p>`; //cuerpo del modal
       }
     }
     traerCotiVenta(); 
